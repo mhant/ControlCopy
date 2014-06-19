@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.androiddev101.control.copy.MainFragment" >
+    
+    
+    <!-- an uneditable edit text, cause we're raw like that -->
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/helpTextButton"
+        android:scrollbars="vertical"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:text="@string/welcome_text"
+        android:scrollbarStyle="outsideOverlay"
+        android:textIsSelectable="true"
+        android:editable="false"
+        />
+    <Button 
+        android:id="@+id/helpTextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/launchNotificationButton"
+        android:text="@string/button_help_text"
+        android:onClick="helpClicked"
+        />
+    
+    <Button 
+        android:id="@+id/launchNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toggleCopyPastaService"
+        android:text="@string/button_launch_notification_text"
+        android:onClick="showNotification"
+        />
+    
+     <Button 
+        android:id="@+id/toggleCopyPastaService"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:text="@string/button_toggle_on"
+        android:onClick="toggleClicked"
+        />
+
+</RelativeLayout>

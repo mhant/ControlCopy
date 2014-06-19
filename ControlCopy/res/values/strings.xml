@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Control Copy</string>
+    <string name="welcome_text">Hey ya.  Welcome to Control Copy the copy history notication unicorn tool.  OK we just threw in unicorn to see if you were paying attention.  We have a 57 page technical manuel to explain the full functionality of the tool, but that is for suckers.  You are a smart cookie, so you can figure it out on your own.  Will give you a hint just turn on the service and copy some text, and then check you notification bar.  Yeah that\'s it that\'s all there is to do.  If you still have questions try the help button.</string>
+    <string name="button_help_text">Help!!</string>
+    <string name="button_launch_notification_text">Open Notification</string>
+    <string name="help_popup_text">OK You didn\'t figure it out yet?  Well here ya go.  Once the Control Copy service is turned on (bottom button) you copy text and Control Copy will automatically add that text to your text history.  The three most recent items will be added to the Control Copy notification.  If you select an older item from the notifcation it will be added to your clipboard so when you paste you will paste that string instead of the last thing you copied.  Got it?</string>
+    <string name="button_help_popup_positive_text">Yeah I got it!</string>
+    <string name="button_toggle_on">Turn On</string>
+    <string name="button_toggle_off">Turn Off</string>
+
+</resources>
